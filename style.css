@@ -1,15 +1,19 @@
 body {
 	font-family: Arial;
-	background: linear-gradient(45deg, #836fff, #473c8b);
+	background: white;
 }
 
 .topnavbar a {
+	font-size: 150%;
 	text-align: center;
-	background-color: #ff6347;
+	color: white;
+	background-color: black;
 	padding: 5px;
 	border: thin solid black;
 	border-radius: 5px;
 }
 .header {
-	text-align: center;
+	font-size: 550%;
+	text-align: left;
+	margin: 10px;
 }

@@ -9,3 +9,6 @@ body {
 	padding: 3px;
 	border: thin solid black;
 }
+.header {
+	text-align: center;
+}

@@ -1,4 +1,5 @@
 body {
+	width: auto;
 	font-family: Arial;
 	background: white;
 }
@@ -7,15 +8,17 @@ body {
 	font-size: 150%;
 	text-align: center;
 	color: white;
-	background-color: black;
+	background-color: #6084FF;
 	padding: 5px;
-	border: thin solid black;
+	border: thin solid #6084FF;
 	border-radius: 5px;
 }
 .header {
-	margin: 5px;
-	border: medium solid black;
-	padding: 5px;
+	color: white;
+	background-color: #6084FF;
+	margin: auto;
+	border: medium solid #6084FF;
+	padding: auto;
 	font-size: 550%;
 	text-align: center;
 	border-radius: 10px;

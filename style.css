@@ -1,0 +1,57 @@
+body {
+    background-color: #131313;
+    margin: auto;
+    max-width: 700px;
+    alignment: center;
+    font-family: Arial;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+h1.headingbar {
+    font-style: italic;
+    font-size: 80px;
+    color: #cdcdcd;
+}
+
+h1 {
+    font-style: italic;
+    color: #cdcdcd;
+}
+
+p {
+    color: #a2a2a2;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffa200;
+}
+
+a:visited {
+    text-decoration: none;
+    color: darkred;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+    color: white;
+}
+
+h2.transtextuwu {
+    color: cornflowerblue;
+    font-size: 60px;
+    text-shadow: 2px 0 0 currentColor,
+    7px 7px 0 hotpink,
+    12px 12px 0 white,
+    17px 17px 0 hotpink,
+    22px 22px 0 cornflowerblue;
+    padding-right: 20px;
+    padding-top: 0;
+    alignment: center;
+}

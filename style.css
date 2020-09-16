@@ -25,8 +25,19 @@ h3 {
     color: #a2a2a2;
 }
 
+div.backbutton {
+    text-align: left;
+}
 
-div.project {
+a.backbutton {
+    alignment: left;
+}
+
+a.backbutton:visited {
+    color: #ffa200;
+}
+
+div.project_post {
     padding: 1px;
     alignment: center;
     margin: 10px auto;

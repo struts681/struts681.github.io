@@ -94,6 +94,9 @@ h2.transtextuwu {
     alignment: center;
 }
 
+hr {
+    border: 1px solid #8d5a10;
+}
 
 /* width */
 ::-webkit-scrollbar {

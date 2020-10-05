@@ -3,7 +3,7 @@ body {
     margin: auto;
     max-width: 800px;
     alignment: center;
-    font-family: Arial;
+    font-family: "Lucida Console";
     text-align: center;
     overflow-x: hidden;
     margin-bottom: 16px;
@@ -15,6 +15,7 @@ h1.headingbar {
     font-style: italic;
     font-size: 80px;
     color: #cdcdcd;
+    text-decoration: underline;
 }
 
 h1 {
@@ -65,16 +66,16 @@ span {
 
 a {
     text-decoration: none;
-    color: #ffa200;
+    color: #cf7b00;
 }
 
 a:visited {
     text-decoration: none;
-    color: #9d3304;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #a42100;
 }
 
 a:active {
@@ -96,11 +97,11 @@ h2.transtextuwu {
 }
 
 hr {
-    border: 1px solid #8d5a10;
+    border: 1px solid #cf7b00;
 }
 
 div.bottombar {
-    border: #ffa200 solid 1px;
+    border: #cf7b00 solid 1px;
     border-radius: 10px;
 }
 /* width */

@@ -99,6 +99,10 @@ hr {
     border: 1px solid #8d5a10;
 }
 
+div.bottombar {
+    border: #ffa200 solid 1px;
+    border-radius: 10px;
+}
 /* width */
 ::-webkit-scrollbar {
     width: 15px;

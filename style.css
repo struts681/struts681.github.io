@@ -1,9 +1,11 @@
+@import url(//fonts.googleapis.com/css2?family=Courier+Prime);
+
 body {
     background-color: #131313;
     margin: auto;
     max-width: 800px;
     alignment: center;
-    font-family: "Lucida Console";
+    font-family: 'Courier Prime', monospace;
     text-align: center;
     overflow-x: hidden;
     margin-bottom: 16px;
@@ -14,8 +16,9 @@ h1.headingbar {
     margin-bottom: 20px;
     font-style: italic;
     font-size: 80px;
-    color: #cdcdcd;
-    text-decoration: underline;
+    background: -webkit-linear-gradient(#3cdb43, #b700b7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h1 {

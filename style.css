@@ -1,5 +1,19 @@
 @import url(//fonts.googleapis.com/css2?family=Courier+Prime);
 
+@font-face {
+    font-family: Alien Encounters;
+    src: url("Alien-Encounters-Regular.ttf");
+}
+@font-face {
+    font-family: Linearbeam;
+    src: url("Linebeam.ttf") format("truetype");
+    font-style: normal;
+}
+@font-face {
+    font-family: Former;
+    src: url("former.ttf");
+}
+
 body {
     background-color: #131313;
     margin: auto;
@@ -14,8 +28,9 @@ body {
 h1.headingbar {
     margin-top: 20px;
     margin-bottom: 20px;
-    font-style: italic;
-    font-size: 80px;
+    font-family: "Alien Encounters";
+    font-style: normal;
+    font-size: 90px;
     background: -webkit-linear-gradient(#3cdb43, #b700b7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

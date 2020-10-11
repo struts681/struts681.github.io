@@ -102,13 +102,13 @@ a:active {
 }
 
 h2.transtextuwu {
-    color: cornflowerblue;
+    color: #5BCEFA;
     font-size: 60px;
     text-shadow: 2px 0 0 currentColor,
-    7px 7px 0 hotpink,
-    12px 12px 0 white,
-    17px 17px 0 hotpink,
-    22px 22px 0 cornflowerblue;
+    7px 7px 0 #F5A9B8,
+    12px 12px 0 #FFFFFF,
+    17px 17px 0 #F5A9B8,
+    22px 22px 0 #5BCEFA;
     padding-right: 20px;
     padding-top: 0;
     alignment: center;

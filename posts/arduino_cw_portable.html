@@ -12,25 +12,6 @@
 <hr>
 <div class="backbutton"><a class="backbutton" href="index.html">Go back</a></div>
 <hr>
-<h1>Update: 2020-10-14</h1>
-<p>My plan currently is to complete a mk.1 schematic before going home from college. After returning, I will build a prototype, test, and refine. The final product will hopefully be much nicer on a custom PCB.</p>
-<p>I have put together a to-do list for this project:</p>
-<ul>
-    <li>Change the design to a heterodyning receiver for SSB reception.</li>
-    <li>Design better RF mixers.</li>
-    <li>Design a crystal IF filter.</li>
-    <li>Implement the IF and sideband selection into the Arduino code.</li>
-    <li>Design better RF amps(RX and TX).</li>
-    <li>Try to mitigate the noise from the OLED display or find a new display.</li>
-</ul>
-<p>I hope to have this mk.1 plan done by November 25 and the first prototype built by December 5. After testing and tweaking, I will finalize the design and build mk.2 on a custom-designed PCB.</p>
-<hr style="height: 30px; visibility: hidden">
-<hr>
-<h1>Update: 2020-09-16</h1>
-<p>I did not finish this project before leaving for college. Progress so far has been success in creating a crude receiver, which has some extremely high noise from the OLED display.</p>
-<p>During winter break I hope to finish it, and bring it for bicycle-portable use during the spring semester. I'll power it on ~8v from two 18650 batteries in series.</p>
-<hr style="height: 30px; visibility: hidden">
-<hr>
 <h1 class="posttitle">New Project: QRP Transceiver</h1>
 <p>Recently I’ve taken up a new project – I am building a QRP transceiver for 40m, CW only. The intention is to have a small radio, 5 watts or so, which I can carry almost anywhere and operate easily. Also, it must be completely scratch built by me. I decided on 40m as I already have a 4SQRP Hilltopper for 20m, as well as a QCX also for 20m.</p>
 <p>I decided on a design using an Arduino Nano(well, a clone) as the heart of it along with an Si5351 for the VFO. This section I completed first on a breadboard, and then soldered down. I wrote all of the code for this from scratch. The Si5351 produces an output between 7MHz and 7.3MHz, controlled by a rotary encoder with a variable step(10-1000Hz). The Arduino also controls TX/RX switching with the key input, and an OLED display for the frequency readout. The code for this can be found here:</p>
@@ -43,6 +24,24 @@
 <p>Next, I started working on the AF amplification section. This is pretty simple, and I chose an LM386 for it. The next update will contain more information on this, as it is still in progress.</p>
 <p>After completing the AF stage, I will work on a bandpass filter, and then a TX amplifier, and TX/RX switching. I’d also like to add a built-in iambic keyer using an ATTiny.</p>
 <hr style="height: 30px; visibility: hidden">
+<hr>
+<h1>Update: 2020-09-16</h1>
+<p>I did not finish this project before leaving for college. Progress so far has been success in creating a crude receiver, which has some extremely high noise from the OLED display.</p>
+<p>During winter break I hope to finish it, and bring it for bicycle-portable use during the spring semester. I'll power it on ~8v from two 18650 batteries in series.</p>
+<hr style="height: 30px; visibility: hidden">
+<hr>
+<h1>Update: 2020-10-14</h1>
+<p>My plan currently is to complete a mk.1 schematic before going home from college. After returning, I will build a prototype, test, and refine. The final product will hopefully be much nicer on a custom PCB.</p>
+<p>I have put together a to-do list for this project:</p>
+<ul>
+    <li>Change the design to a heterodyning receiver for SSB reception.</li>
+    <li>Design better RF mixers.</li>
+    <li>Design a crystal IF filter.</li>
+    <li>Implement the IF and sideband selection into the Arduino code.</li>
+    <li>Design better RF amps(RX and TX).</li>
+    <li>Try to mitigate the noise from the OLED display or find a new display.</li>
+</ul>
+<p>I hope to have this mk.1 plan done by November 25 and the first prototype built by December 5. After testing and tweaking, I will finalize the design and build mk.2 on a custom-designed PCB.</p>
 <hr style="height: 100px; visibility: hidden">
 <div class="bottombar">
     <p>Visit <a href="https://github.com/struts681">My GitHub</a> for some random useless stuff and nothing of any

@@ -74,7 +74,8 @@ p {
     font-size: 18px;
 }
 
-ul {
+ul,
+li {
     line-height: 1.4;
     color: #a2a2a2;
     font-size: 18px;

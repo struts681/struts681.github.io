@@ -16,6 +16,10 @@
     src: url("former.ttf");
 }
 
+html {
+    overflow-y: scroll;
+}
+
 body {
     background-color: #000000;
     margin: auto;

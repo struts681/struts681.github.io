@@ -34,8 +34,8 @@ body {
 h1.headingbar {
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: "Alien Encounters";
-    font-style: normal;
+    font-family: 'Courier Prime';
+    font-style: italic;
     font-size: 90px;
     background: -webkit-linear-gradient(#161639, #36aea0);
     -webkit-background-clip: text;

@@ -182,6 +182,11 @@ div.bottombar {
     display: inline-block;
     border-radius: 10px;
 }
+div.footer {
+	position: fixed;
+	bottom: 10px;
+	left: 50%;
+}
 
 /* width */
 ::-webkit-scrollbar {

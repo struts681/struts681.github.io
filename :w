@@ -48,13 +48,13 @@ permalink: /404.html
     </head>
 
     <body>
-    <h1>no<3</h1>
+    <h1>No<3</h1>
     <p>this page does not exist. try again.</p>
-    <a href="index.html">click here to go back home.</a>
+    <a href="index.html">Click here to go back home.</a>
     <hr style="height: 100px; visibility: hidden">
     <div class="bottombar" ;
          style="border: #cf7b00 solid 1px; border-radius: 10px; max-width: 700px; alignment: center; margin: auto">
-        <p>visit <a href="https://github.com/struts681">my github</a></p>
+        <p>Visit <a href="https://github.com/struts681">My GitHub</a></p>
         <p style="font-size: 10px">© AG2V 2020-20XX</p>
     </div>
     </body>

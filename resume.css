@@ -31,6 +31,10 @@ a:active {
     color: white;
 }
 
+p {
+    max-width: 80ch;
+}
+
 h1 {
     color: #cc5500
 }

@@ -1,6 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body {
     background: #000000;
-    font-family: 'Courier New', monospace;
+    font-family: 'B612', monospace;
     color: #a2a2a2;
     alignment: left;
     margin: auto;

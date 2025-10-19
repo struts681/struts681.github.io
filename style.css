@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css2?family=Courier+Prime);
+@import url('https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 html {
 	overflow-y: scroll;
@@ -8,7 +8,7 @@ body {
 	background-color: #000000;
 	margin: auto;
 	max-width: 800px;
-	font-family: 'Courier Prime', monospace;
+	font-family: 'B612', monospace;
 	text-align: center;
 	overflow-x: hidden;
 }
@@ -16,7 +16,7 @@ body {
 h1.headingbar {
 	margin-top: 20px;
 	margin-bottom: 20px;
-	font-family: 'Courier Prime';
+	font-family: 'B612';
 	font-style: italic;
 	font-size: 90px;
 	background: -webkit-linear-gradient(#161639, #36aea0);
